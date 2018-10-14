@@ -1,0 +1,151 @@
+body {
+    background-color: #ab0000;
+}
+
+h1 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+h2 {
+	color:#f1f1f1;
+	text-align:center;
+}
+
+h3 {
+	color:#f1f1f1;
+	text-align:center;
+}
+
+p {
+	text-align:center; 
+	color:#3d1010;
+	font-family:"Times New Roman", serif;
+	font-size:20px
+	}
+
+span.boldtext{
+	font-weight:bold;
+}
+
+span.italictext {
+	font-style:italic;
+}
+
+.sidenav {
+	background-color: black;
+	border-radius: 40px;
+	width: 200px;
+	position: fixed;
+	overflow-x: hidden;
+}
+
+.sidenav a {
+	color: Black;
+	font-size: 18px;
+	font-weight: Bold;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.sidenav a:hover{
+	color:#ff0000;
+}
+
+.main {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+.button {
+	background-color:#cf0000;
+	border:#ff0000;
+	color: white;
+	padding:5px 15px;
+	text-align:center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius:30px
+	}
+	
+.button1 {
+	background-color:#750000;
+	border:#ff0000;
+	color: #fcdada;
+	padding:5px 15px;
+	text-align:center;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius:30px
+	}
+	
+table.center {
+margin-left:auto;
+margin-right:auto;
+}
+
+
+table.table1 {
+margin-left:16%;
+width:70%;
+background-color:#c41616;
+border-collapse: separate;
+border-spacing:10px;
+border-radius:15px;
+padding: 20px;
+}
+
+th.th1 {
+	border:2px solid#580000;
+	border-radius:15px;
+	width:400px;
+	background-color:#750000;
+	padding: 20px;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+td.td1 {
+	border:2px solid#580000;
+	border-radius:15px;
+	width:400px;
+	background-color:#750000;
+	padding: 20px;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+td.td2 {
+		border:1px solid#950000;
+		border-radius:15px;
+		width:400px;
+		background-color:#950000;
+		padding: 20px;
+		text-align: left;
+		vertical-align: baseline;
+}
+
+td.td3 {
+	width:100px;
+	height:100px;
+}
+
+caption.caption1 {
+	font-size:28px;
+}
+form.form1 {
+	padding-left: 40%;
+	text-align:left;
+}
+
+
+
+
+
